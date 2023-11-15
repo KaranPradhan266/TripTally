@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+
+        <item
+            android:id="@+id/nav_Delete"
+            android:title="Delete"
+            android:icon="@drawable/ic_baseline_delete_24"/>
+    </group>
+
+        <item android:title="Profile">
+
+            <menu>
+                <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_baseline_person_24"/>
+
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/ic_baseline_reply_24"/>
+                </group>
+       </menu>
+        </item>
+
+
+
+
+        <item android:title="communicate">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                <item
+            android:id="@+id/nav_feedback"
+            android:title="feedback"
+            android:icon="@drawable/ic_baseline_comment_24"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="about"
+            android:icon="@drawable/ic_baseline_info_24"/>
+                </group>
+            </menu>
+        </item>
+
+
+</menu>
